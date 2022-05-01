@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* This is the navigation box at the top of the screen */
 .nav {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* This is main section of information */
 .section {
     height: 800px;
     width: 100%;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* This is the right aligned box */
 .aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,17 +86,6 @@ p {
     background-color: #2589bd;
 }
 
-
-
-
-
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
 .info {
     margin-bottom: 20px;
     padding: 50px;
@@ -106,19 +95,31 @@ p {
     color: #ffffff;
 }
 
-
 .info img {
     max-height: 200px;
 }
-
 
 .info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* This is footer at the bottom of the page */
 .footer {
     padding: 30px;
     clear: both;
@@ -130,13 +131,3 @@ p {
     font-size: 20px;
 }
 
-.benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
